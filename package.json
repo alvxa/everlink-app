@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "description": "EVERLINK - Connect Beyond Boundaries. A global social networking platform.",
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "dev": "cross-env NODE_ENV=development node server.mjs",
     "build": "next build",
@@ -35,6 +38,7 @@
     "@socket.io/redis-adapter": "^8.3.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "cross-env": "^7.0.3",
     "d3-geo": "^3.1.1",
     "ioredis": "^5.4.2",
     "lucide-react": "^0.468.0",
@@ -61,7 +65,6 @@
     "@types/topojson-client": "^3.1.5",
     "@types/web-push": "^3.6.4",
     "autoprefixer": "^10.4.20",
-    "cross-env": "^7.0.3",
     "node-turn": "^0.0.6",
     "postcss": "^8.4.49",
     "prisma": "6.19.3",
